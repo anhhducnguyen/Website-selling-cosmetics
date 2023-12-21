@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dc2a236791.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/HomePage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <title>Trang chủ</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" href="../img/fa.ico" type="image/x-icon">
+    <script defer src="../js/HomePage.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+   
+    $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                $('#goToTopBtn').fadeIn();
+            } else {
+                $('#goToTopBtn').fadeOut();
+            }
+        });
+
+        $('#goToTopBtn').click(function() {
+            $('html, body').animate({scrollTop: 0}, 800);
+        });
+    });
+    </script>
+
+</head>
+<body>
+    <div clas="header">
+        <div class="top-header">
+            <div class="top-header-title"><a href="">Hệ thống showroom<i class="fa-solid fa-angle-down" style="color: #484848;"></i></a></div>
+            <div class="top-header-list">
+                <ul>
+                    <li><a href="Introduce.html">Giới thiệu</a></li>
+                    <li><a href="News.html">Tin tức</a></li>
+                    <li><a href="Q&A.html">Hỏi đáp</a></li>
+                    <li><a href="Contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+       
+        <div class="main-header" id="myHeader">
+            <div class="logo">
+                <a href="">
+                    <img src="../img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="search-box">
+                <input class="box" type="text" value placeholder="Tìm kiếm">
+                <button class="button" type="submit" value=""><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+            </div>
+            <div class="hotline">
+                <p>HOTLINE: <span>0981.402.765</span></p>
+                <span>Hỗ trợ 24/7 (nhanh chóng tiện lợi)</span>
+            </div>
+            <div class="cart" id="cartDiv">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping fa-bounce"></i>
+                    <span>Giỏ hàng</span>
+                </a>
+            </div>
+        </div>
+        <div class="menu" >
+            <ul>
+                <li>
+                        <i class="fa-sharp fa-solid fa-bars" style="color: #f2f4f8;"></i> DANH MỤC SẢN PHẨM
+                    <ul>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Kem dưỡng ẩm</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Sữa rửa mặt</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Serum Caryophy</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Toner</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Kem chống nắng</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Tẩy trang</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Tẩy da chết</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Mặt nạ</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Dưỡng trắng body</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Xịt mụn lưng</a></li>
+                    </ul>                        
+                </li>
+                <li><a href="HomePage.html">Trang chủ</a></li>
+                <li><a href="Introduce.html">Giới thiệu</a></li>
+                <li><a href="Product.html">Sản phẩm</a></li>
+                <li><a href="">Hệ thống cửa hàng</a></li>
+                <li><a href="News.html">Tin tức</a></li>
+                <li><a href="Contact.html">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body">
+               <section class="slider">
+            <div class="container">
+                <div class="slide-content">
+                    <div class="slide-content-left">
+                        <div class="slide-content-left-container">
+                            <div class="slide-content-left-top">
+                                <a href=""> <img src="../img/SLIDE-1.png" alt=""></a>
+                                <a href=""><img src="../img/SLIDE-2.png" alt=""></a>
+                                <a href=""><img src="../img/SLIDE-3.png" alt=""></a>
+                                <a href=""><img src="../img/SLIDE-4.png" alt=""></a> 
+                                <a href=""><img src="../img/SLIDE-5.png" alt=""></a>
+                             </div>
+                             <div class="slide-content-left-top-btn">
+                                <i class="fas fa-chevron-left"></i>
+                                <i class="fas fa-chevron-right"></i>
+                             </div>
+                             <div class="pagination">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                              </div>
+                        </div>
+                        
+                       
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+
+        <div class="ralativee">
+            <div class="relativee-box box1">
+                <div class="box-img">
+                    <img src="../img/rt1.png" alt="">
+                </div>
+                <div class="box-text">
+                    <h4>Chất lượng hàng đầu</h4>
+                    <p>Sản phẩm chính hãng 100%</p>
+                </div>
+             
+            </div>
+            <div class="relativee-box box2">
+                <div class="box-img">
+                    <img src="../img/rt2.png" alt="">
+                </div>
+                <div class="box-text">
+                    <h4>Miễn phí gia hàng toàn quốc</h4>
+                    <p>Với đơn hàng mua tại website</p>
+                </div>
+                
+            </div>
+            <div class="relativee-box box3">
+                <div class="box-img">
+                    <img src="../img/rt3.png" alt="">
+                </div>
+                <div class="box-text">
+                    <h4>Mua hàng tiết kiệm</h4>
+                    <p>Khuyến mại với ưu đãi cực lớn</p>
+                </div>
+                
+            </div>
+            <div class="relativee-box box4">
+                <div class="box-img">
+                    <img src="../img/rt4.png" alt="">
+                </div>
+                <div class="box-text">
+                    <h4>Hỗ trợ online 24/7</h4>
+                    <p>Hotline: 0981.402.765</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- <div class="content-product">
+            <div class="container section-title-container" >
+                <h3>Danh mục sản phẩm</h3>
+            </div>
+            <div class="content">
+                <div class="content-box1">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                        
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+
+                <div class="content-box2">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+                <div class="content-box3">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+                <div class="content-box4">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+                <div class="content-box5">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+                <div class="content-box6">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+                <div class="content-box7">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+                <div class="content-box8">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+                <div class="content-box9">
+                    <div class="content box-img">
+                        <a href=""><img src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/05/3.jpg" alt=""></a>
+                    </div>
+                    <a href="">
+                        <p>Serum Caryophy</p>
+                    </a>
+                </div>
+            </div> -->
+        <!-- </div> -->
+        
+        <section class="product-home">
+            <div class="back-groundd">
+                <div class="title-topp">
+                   <span class="underline-one"></span>
+                   <h3 class="centered-text">SẢN PHẨM BÁN CHẠY</h3>
+                   <span class="underline-one"></span>
+                </div>
+                <div class="top">
+                    <div class="top-left">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/sellingProducts-1.png" alt=""></a>
+                            <span class="discount-circle">-25%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Serum mụn Caryophy 30ml</p>
+                            </a>
+                            <ins> <span>490.000đ </span></ins>
+                            <del> <span>650.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="BuyProduct.html" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="top-center">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/sellingProducts-2.png" alt=""></a>
+                            <span class="discount-circle">-37%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Xịt trị mụn toàn thân Caryophy Portulaca Body Mist 150ml</p>
+                            </a>
+                            <ins> <span>349.000đ </span></ins>
+                            <del> <span>550.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="top-right">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/sellingProducts-3.png" alt=""></a>
+                            <span class="discount-circle">-23%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Kem chống nắng thông minh Caryophy Smart Sunscreen Tone Up 50ml</p>
+                            </a>
+                            <ins> <span>279.000đ </span></ins>
+                            <del> <span>360.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="top-right">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/sellingProducts-4.png" alt=""></a>
+                            <span class="discount-circle">-28%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Nước tẩy trang thông minh Caryophy Smart Cleansing Water 500ml</p>
+                            </a>
+                            <ins> <span>360.000đ </span></ins>
+                            <del> <span>500.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sản phẩm mới -->
+            <div class="back-ground">
+                <div class="title-top">
+                   <h3> SẢN PHẨM MỚI</h3>
+                   <div class="is_des">
+                    
+                   </div>
+                </div>
+                <div class="top">
+                    <div class="top-left">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/newProduct-1.jpg" alt=""></a>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Kem dưỡng ẩm và phục hồi Caryophy Smart Waterful Cream</p>
+                            </a>
+                                <span> <strong>Liên hệ</strong></span>
+                             <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="top-center">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/newProduct-2.jpg" alt=""></a>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Gel tẩy tế bào chết thông minh ngăn ngừa mụn Caryophy Smart</p>
+                            </a>
+                            <span> <strong>Liên hệ</strong></span>
+                            <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-right">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/newProduct-3.jpg" alt=""></a>
+                            <span class="discount-circle">-20%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Kem chống nắng thông minh Caryophy Smart Moist Sunscreen</p>
+                            </a>
+                            <ins> <span>360.000đ </span></ins>
+                            <del> <span>450.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="top-right">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/newProduct-4.jpg" alt=""></a>
+                            <span class="discount-circle">-37%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Xịt trị mụn toàn thân Caryophy Portulaca Body Mist 150ml</p>
+                            </a>
+                            <ins> <span>349.000đ </span></ins>
+                            <del> <span>550.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adver">
+                    <a href=""><img width="1170px" src="../img/Frame-1.png" alt=""></a>
+                </div>
+            </div>
+    
+            <!-- Sản phẩm trị mụn -->
+            <div class="back-ground">
+                <div class="title-top">
+                   <h3>SẢN PHẨM TRỊ MỤN</h3>
+                   <div class="is_des">
+                        
+                   </div>
+                </div>
+                <div class="top">
+                    <div class="top-left">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/acneTreatment-1.jpg" alt=""></a>
+                            <span class="discount-circle">-20%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Serum mụn Caryophy 10ml</p>
+                            </a>
+                            <ins> <span>279.000đ </span></ins>
+                            <del> <span>350.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="top-center">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/acneTreatment-2.jpg" alt=""></a>
+                            <span class="discount-circle">-33%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Mặt nạ Caryophy Portulaca Mask Sheet trị mụn, trị thâm (hộp 10 miếng)</p>
+                            </a>
+                            <ins> <span>329.000đ </span></ins>
+                            <del> <span>490.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="top-right">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/acneTreatment-3.jpg" alt=""></a>
+                            <span class="discount-circle">-37%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Xịt trị mụn toàn thân Caryophy Portulaca Body Mist 150ml</p>
+                            </a>
+                            <ins> <span>349.000đ </span></ins>
+                            <del> <span>550.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="top-right">
+                        <div class="top-img">
+                            <a href="#"><img src="../img/acneTreatment-4.jpg" alt=""></a>
+                            <span class="discount-circle">-25%</span>
+                            <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                        </div>
+                        <div class="top-box-textt">
+                            <a href="#">
+                                <p>Serum mụn Caryophy 30ml</p>
+                            </a>
+                            <ins> <span>490.000đ </span></ins>
+                            <del> <span>650.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <div class="adver">
+                    <a href=""><img width="1170px" src="../img/Frame-2.png" alt=""></a>
+                </div>
+    
+                <!-- sản phẩm làm sạch -->
+                <div class="back-ground">
+                    <div class="title-top">
+                       <h3>SẢN PHẨM LÀM SẠCH</h3>
+                       <div class="is_des">
+                        
+                       </div>
+                    </div>
+                    <div class="top">
+                        <div class="top-left">
+                            <div class="top-img">
+                                <a href="#"><img src="../img/cleaningProducts-1.png" alt=""></a>
+                                <span class="discount-circle">-20%</span>
+                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                            </div>
+                            <div class="top-box-textt">
+                                <a href="#">
+                                    <p>Serum mụn Caryophy 10ml</p>
+                                </a>
+                                <ins> <span>279.000đ </span></ins>
+                                <del> <span>350.000đ</span></del> <br>
+                                <div class="dathang">
+                                    <a href="#" class="chitiet">Mua hàng</a>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="top-center">
+                            <div class="top-img">
+                                <a href="#"><img src="../img/cleaningProducts-2.png" alt=""></a>
+                                <span class="discount-circle">-33%</span>
+                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                            </div>
+                            <div class="top-box-textt">
+
+                            </div>
+                            <a href="#">
+                                <p>Mặt nạ Caryophy Portulaca Mask Sheet trị mụn, trị thâm (hộp 10 miếng)</p>
+                            </a>
+                            <ins> <span>329.000đ </span></ins>
+                            <del> <span>490.000đ</span></del> <br>
+                            <div class="dathang">
+                                <a href="#" class="chitiet">Mua hàng</a>
+                            </div>
+                        </div>
+                        <div class="top-right">
+                            <div class="top-img">
+                                <a href="#"><img src="../img/cleaningProducts-3.png" alt=""></a>
+                                <span class="discount-circle">-37%</span>
+                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                            </div>
+                            <div class="top-box-textt">
+                                <a href="#">
+                                    <p>Xịt trị mụn toàn thân Caryophy Portulaca Body Mist 150ml</p>
+                                </a>
+                                <ins> <span>349.000đ </span></ins>
+                                <del> <span>550.000đ</span></del> <br>
+                                <div class="dathang">
+                                    <a href="#" class="chitiet">Mua hàng</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="top-right">
+                            <div class="top-img">
+                                <a href="#"><img src="../img/cleaningProducts-4.png" alt=""></a>
+                                <span class="discount-circle">-25%</span>
+                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                            </div>
+                            <div class="top-box-textt">
+                                <a href="#">
+                                    <p>Serum mụn Caryophy 30ml</p>
+                                </a>
+                                <ins> <span>490.000đ </span></ins>
+                                <del> <span>650.000đ</span></del> <br>
+                                <div class="dathang">
+                                    <a href="#" class="chitiet">Mua hàng</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+                    
+                    </div>
+                </div>
+                <!-- tin tức sự kiện -->
+
+                <div class="feedback">
+                        <div class="feedback-title">
+                            <span class="underline-feedback"></span>
+                            <span class="underline"></span>
+                            <h3 class="centered-text">PHẢN HỒI KHÁCH HÀNG</h3>
+                            <span class="underline"></span>
+                            <span class="underlineeee"></span>
+                        </div>
+                        <div class="feedback-content">
+                            <div class="feedback-content-box">
+                                <img src="../img/feedBack-1.png" alt="">
+                                <p class="feedback-content-box-title">Hoa hậu lương ý nhi</p>
+                                <span class="slogan">Công ty cổ phần CCS Việt Nam</span>
+                                <p>Thường xuyên makeup nhiều da bất bí dễ nổi mụn. Từ ngày kết thân với nước tẩy trang Caryophy da được sạch sẽ tuyệt đối &#8211; đã vậy còn tẩy da chết dịu nhẹ mà khong khô da. Có thành phần rau má kháng viêm ngừa mụn rất tốt. Trót mê em này thật rồi. Mọi người nên trải nhiệm nhé sẽ &#8220;nghiện&#8221; đấy</p>
+                            </div>
+                            <div class="feedback-content-box">
+                                <img src="../img/feedBack-2.png" alt="">
+                                <p class="feedback-content-box-title">NUL RAPPER</p>
+                                <span class="slogan">Công ty cổ phần CCS Việt Nam</span>
+                                <p>Bắt trend ngay dòng nước tẩy trang không cồn của Caryophy siêu thích á mọi người, bắn rap cũng không lột tả hết độ đam mê với em ấy. Tẩy sạch makeup, tẩy da chết, cấp ẩm lại ngừa mụn cho làn da siêu ăn đồ nóng như Nul. Qúa là yêu</p>
+                            </div>
+                            <div class="feedback-content-box">
+                                <img src="../img/feedBack-3.png" alt="">
+                                <p class="feedback-content-box-title">CA SĨ BẢO ANH</p>
+                                <span class="slogan">Công ty cổ phần CCS Việt Nam</span>
+                                <p>Bảo Anh &#8211; Đại sứ thương hiệu Kem chống nắng Caryophy là một người khó tính trong lựa chọn sử dụng mỹ phẩm. Tuy nhiên Caryophy Smart Sunscreen Tone Up là siêu phẩm với các tính năng nổi bật nâng tone giúp trắng da, đặc biệt có khả năng ngừa mụn và sử dụng khi không cần makeup thêm.</p>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="event">
+                    <div class="title-topp">
+                        <span class="underline-event"></span>
+                            <span class="underline"></span>
+                            <h3 class="centered-text">TIN TỨC SỰ KIỆN</h3>
+                            <span class="underline"></span>
+                            <span class="underline-event"></span>
+                     </div>
+                     <div class="main-event">
+                        <div class="event left">
+                            <div class="envent-box-img">
+                                <a href="#"><img src="../img/event-1.png" alt=""></a>
+                            </div>
+                           
+                            <div class="event-box-text">
+                                <a href="#">
+                                    <h5>Bảo Anh chính thức làm đại sứ thương hiệu Kem chống nắng Caryophy 3IN1</h5>
+                                </a>
+                                <span class="underlinee"></span>
+                                <a href="#">
+                                    <p>Bảo Anh được khán giả biết đến và yêu mến qua vai trò ca sĩ,...</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="event center">
+                            <div class="envent-box-img">
+                                <a href="#"><img src="../img/event-2.png" alt=""></a>
+                            </div>
+                            <div class="event-box-text">
+                                <a href="#">
+                                    <h5>Update ” phiên bản hoàn hảo ” nâng cấp sữa rửa mặt Caryophy vượt trội</h5>
+                                </a>
+                                <span class="underlinee"></span>
+                                <a href="#">
+                                    <p>Thương hiệu Caryophy – Mỹ phẩm Hàn Quốc chính hãng tại Việt Nam Caryophy là...</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="event right">
+                            <div class="envent-box-img">
+                                <a href="#"><img src="../img/event-3.png" alt=""></a>
+                            </div>
+                            <div class="event-box-text">
+                                <a href="#">
+                                    <h5>Bật mí siêu phẩm sắp ra mắt Kem chống nắng Caryophy bảo vệ da ngừa mụn giảm thâm hiệu quả</h5>
+                                </a>
+                                <span class="underlinee"></span>
+                                <a href="#">
+                                    <p>Thông tin thương hiệu Caryophy Thương hiệu mỹ phẩm Caryophy đến từ Hàn Quốc đã...</p>
+                                </a>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="dtt">
+                        <div class="title-topp">
+                            <span class="underlineeee"></span>
+                            <span class="underline"></span>
+                            <h3 class="centered-text">ĐỐI TÁC KHÁCH HÀNG</h3>
+                            <span class="underline"></span>
+                            <span class="underlineeee"></span>
+                        </div>
+                        <div class="dt">
+                            <img src="http://mypham10.maugiaodien.com/wp-content/uploads/2021/12/dt8.png" alt="">
+                            <img src="http://mypham10.maugiaodien.com/wp-content/uploads/2021/12/dt7.png" alt="">
+                            <img src="http://mypham10.maugiaodien.com/wp-content/uploads/2021/12/dt6.png" alt="">
+                            <img src="http://mypham10.maugiaodien.com/wp-content/uploads/2021/12/dt5.png" alt="">
+                            <img src="http://mypham10.maugiaodien.com/wp-content/uploads/2021/12/dt4.png" alt="">
+                            <img src="http://mypham10.maugiaodien.com/wp-content/uploads/2021/12/dt3.png" alt="">
+                            <img src="http://mypham10.maugiaodien.com/wp-content/uploads/2021/12/dt2.png" alt="">
+                        </div>
+                    </div>
+                    
+        </section>
+        
+    
+        
+        <footer>
+            <div class="main-footer">
+                <div class="footer-box1">
+                    <ul>
+                        <h2 class="widgettitle">Về chúng tôi</h2>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Những Câu Hỏi Thường Gặp</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Giấy Chứng Nhận</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Vì sao chọn Caryophy? Thông tin về chúng tôi</a></li>
+                        <li id="media_image-3" class="widget widget_media_image"><img width="220" height="83" src="http://mypham10.maugiaodien.com/wp-content/uploads/2022/07/bocongthuong-tach-nen.png" class="image wp-image-2349  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" /></li></ul>
+                    </ul>   
+                </div>
+                <div class="footer-box1">
+                    <ul>
+                        <h2 class="widgettitle">Hướng dẫn</h2>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Chính Sách Bảo Mật Thông Tin</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Chính Sách Bảo Hành</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Chính Sách Đổi Trả Và Hoàn Tiền</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Chính Sách Thanh Toán</a></li>
+                    </ul>   
+                </div>
+                <div class="footer-box1">
+                    <ul>
+                        <h2 class="widgettitle">Hệ Thống</h2>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Đối Tác Online</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Hệ Thống Cửa Hàng Toàn Quốc</a></li>
+                        
+                    </ul>   
+                </div>
+                <div class="footer-box1">
+                    <ul>
+                        <h2 class="widgettitle">Địa chỉ</h2>
+                        <p>Tổng đại lý Caryophy miền Bắc</p>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-location-dot" style="color: #fdfcfc;"></i>Địa chỉ : 53/116 Miếu Đầm, P Mễ Trì, Q Nam Từ Liêm, Hà Nội</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-envelope" style="color: #f5f5f5;"></i>Email: xxxx@gmail.com</a></li>
+                        <li><a href=""><i class="fa-sharp fa-solid fa-phone-flip" style="color: #ffffff;"></i></i>Hotline: 0989.082.xxx</a></li>
+                        <li><a href=""><i class="fa-solid fa-globe" style="color: #ccd0d7;"></i>Website: abc.gmail</a></li>
+                    </ul>   
+                </div>
+            </div>
+            <div class="extra-footer">
+                <p>© Bản quyền </p>
+            </div>
+        </footer>
+        
+        <button id="goToTopBtn"><i class="fa-solid fa-chevron-up fa-bounce fa-xs" style="color: black;"></i></button>
+    </div>
+    
+</body>
+</html>
