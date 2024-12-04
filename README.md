@@ -50,38 +50,36 @@ The cosmetic industry is rapidly growing, and creating an online store provides 
 ## Homepage Layout
 
 ### Header:
-1. **Top Header**: Showcase showroom, introduction, news, FAQ sections.
-2. **Center Header**: Logo, search bar, hotline, shopping cart.
-3. **Bottom Header**: Navigation menu (Product Categories, Homepage, About Us, Products, Store Locator, News, Contact).
+
+- **Top Header**: Showcase showroom, introduction, news, FAQ sections.
+
+- **Center Header**: Logo, search bar, hotline, shopping cart.
+
+- **Bottom Header**: Navigation menu (Product Categories, Homepage, About Us, Products, Store Locator, News, Contact).
 
 ### Content Sections:
-1. **Section 1**: Promote new products and brand awareness.
-2. **Section 2**: Highlight product quality, free shipping, and savings offers.
-3. **Section 3**: Showcase best-selling products with discounts and add-to-cart options.
-4. **Section 4**: Display new arrivals with discount information and add-to-cart options.
-5. **Section 5**: Banner highlighting trusted high-quality cosmetic brands.
-6. **Section 6**: Feature acne treatment products with discount details.
-7. **Section 7**: Banner reinforcing product brand reputation.
-8. **Section 8**: Display cleaning products with price reductions and add-to-cart options.
-9. **Section 9**: Customer feedback to build trust and encourage community engagement.
-10. **Section 10**: Display news and events related to the cosmetic industry.
-11. **Section 11**: Showcase the store’s partners and collaborators.
+
+- **Section 1**: Promote new products and brand awareness.
+- **Section 2**: Highlight product quality, free shipping, and savings offers.
+- **Section 3**: Showcase best-selling products with discounts and add-to-cart options.
+- **Section 4**: Display new arrivals with discount information and add-to-cart options.
+- **Section 5**: Banner highlighting trusted high-quality cosmetic brands.
+- **Section 6**: Feature acne treatment products with discount details.
+- **Section 7**: Banner reinforcing product brand reputation.
+- **Section 8**: Display cleaning products with price reductions and add-to-cart options.
+- **Section 9**: Customer feedback to build trust and encourage community engagement.
+- **Section 10**: Display news and events related to the cosmetic industry.
+- **Section 11**: Showcase the store’s partners and collaborators.
 
 ### Footer:
-1. **Top Footer**: 
+
+- **Top Footer**: 
+
    - **Section 1**: About Us, FAQs, Certifications, Why Choose Us, Ministry of Industry Logo.
    - **Section 2**: Privacy Policies, Return and Refund Policy, Payment Information Policy.
    - **Section 3**: Online Partners, Nationwide Store Locator.
    - **Section 4**: Contact Information, Email, Hotline.
-2. **Bottom Footer**: Copyright information.
 
----
-
-## User Interface (UI) Features
-- **Responsive design** to ensure accessibility on different devices, including mobile, tablet, and desktop.
-- **Attractive banners** to capture attention and highlight promotions.
-- **Clear call-to-action buttons** (e.g., "Add to Cart", "Buy Now") for better engagement.
-- **Advanced search and filter options** to assist customers in finding the products they are looking for quickly.
-- **Customer review and rating system** to increase trust and provide valuable feedback for potential buyers.
+- **Bottom Footer**: Copyright information.
 
 This UI/UX design plan will create a seamless and engaging experience for online shoppers, making it easy for them to find, review, and purchase cosmetic products.
