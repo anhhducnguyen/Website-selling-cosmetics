@@ -2,6 +2,17 @@
 
 Demo: [Caryopphy make in Korea](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/HomePage.html)
 
+## Installation
+
+**Step 1**: Get the project
+
+```bash
+git clone https://github.com/anhhducnguyen/Website-selling-cosmetics
+cd Website-selling-cosmetics
+```
+
+**Step 2**: On the `html\HomePage.html` page run `Open with Live Server`
+
 ## Overview
 The cosmetic industry is rapidly growing, and creating an online store provides an excellent opportunity for businesses to reach a broader audience. This project focuses on building a user-friendly and visually appealing website to sell cosmetic products while providing customers with a seamless shopping experience.
 
