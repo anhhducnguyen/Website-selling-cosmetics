@@ -16,6 +16,8 @@ cd Website-selling-cosmetics
 ## Overview
 The cosmetic industry is rapidly growing, and creating an online store provides an excellent opportunity for businesses to reach a broader audience. This project focuses on building a user-friendly and visually appealing website to sell cosmetic products while providing customers with a seamless shopping experience.
 
+## Disadvantages: not responsive yet
+
 ## Objectives:
 - Build a professional and user-friendly website that provides an exceptional online shopping experience for customers.
 - Open new business opportunities and provide a large-scale reach to the cosmetic market.
