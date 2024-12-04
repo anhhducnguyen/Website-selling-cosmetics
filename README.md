@@ -1,6 +1,6 @@
 # Cosmetics Online Store Website UI/UX Design
 
-[Demo](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/HomePage.html)
+Demo: [Caryopphy make in Korea](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/HomePage.html)
 
 ## Overview
 The cosmetic industry is rapidly growing, and creating an online store provides an excellent opportunity for businesses to reach a broader audience. This project focuses on building a user-friendly and visually appealing website to sell cosmetic products while providing customers with a seamless shopping experience.
