@@ -5,6 +5,7 @@ Demo Caryopphy make in Korea:
 - [Home Page](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/HomePage.html)
 - [Buy Product](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/BuyProduct.html)
 - [Product](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/Product.html)
+- [Report](https://drive.google.com/drive/folders/1z2K8VdY_58aJTvqv6L9AH5aolrh2ERfU?usp=sharing)
 
 
 ## Installation
