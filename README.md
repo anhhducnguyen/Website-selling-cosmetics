@@ -3,7 +3,7 @@
 Demo Caryopphy make in Korea: 
 
 - [Home Page](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/HomePage.html)
-- [Buy Product](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/BuyProduct.html)
+- [Buy Product](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/BuyProduct2.html)
 - [Product](https://anhhducnguyen.github.io/Website-selling-cosmetics/websiteSellingCosmetics/html/Product.html)
 
 
