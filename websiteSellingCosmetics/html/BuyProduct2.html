@@ -43,6 +43,11 @@
                     <span>Giỏ hàng</span>
                 </a>
             </div>
+
+            <div class="menu-mobile">
+                <i class="fa-sharp fa-solid fa-bars" style="color: black;"></i>
+            </div>
+            
         </div>
         <div class="menu" >
             <ul>
@@ -224,7 +229,6 @@
                                 <h2>SẢN PHẨM LIÊN QUAN</h2>
                             </div>
                             <div class="slider-product-one-content-container">
-            
                                 <div class="slider-product-one-content-items-content">
                                     <div class="slider-product-one-content-items">
                                         <div class="slider-product-one-content-item">
@@ -413,22 +417,5 @@
         <div id="footer"></div>
         <button id="goToTopBtn"><i class="fa-solid fa-chevron-up fa-bounce fa-xs" style="color: black;"></i></button>
     </div>
-
-    <!-- <script>
-        // Hàm tải file HTML
-        async function loadComponent(id, file) {
-            try {
-                const response = await fetch(file);
-                const data = await response.text();
-                document.getElementById(id).innerHTML = data;
-            } catch (error) {
-                console.error(`Error loading ${file}:`, error);
-            }
-        }
-
-        // Gọi hàm để tải header và footer
-        loadComponent('header', 'header.html');
-        loadComponent('footer', 'footer.html');
-    </script> -->
 </body>
 </html>
