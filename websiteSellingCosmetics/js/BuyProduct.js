@@ -83,3 +83,6 @@ var imgList = document.querySelectorAll(".buy-product-main-left>.orther-img>img"
             };
         }
 
+
+
+
