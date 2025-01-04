@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="../img/fa.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/dc2a236791.js" crossorigin="anonymous"></script>
     <title>Mua sản phẩm</title>
     <link rel="stylesheet" href="../css/BuyProduct.css">
     <script defer src="../js/BuyProduct.js"></script>
+    <script>
+        $(document).ready(function() {
+   
+        $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('#goToTopBtn').fadeIn();
+                } else {
+                    $('#goToTopBtn').fadeOut();
+                }
+            });
+
+            $('#goToTopBtn').click(function() {
+                $('html, body').animate({scrollTop: 0}, 800);
+            });
+        });
+    </script>
 </head>
+
 <body>
-    <div clas="header">
+    <div class="header">
         <div class="top-header">
-            <div class="top-header-title"><a href="">Hệ thống showroom<i class="fa-solid fa-angle-down" style="color: #484848;"></i></a></div>
+            <div class="top-header-title"><a href="">Hệ thống showroom<i class="fa-solid fa-angle-down"
+                        style="color: #484848;"></i></a></div>
             <div class="top-header-list">
                 <ul>
                     <li><a href="Introduce.html">Giới thiệu</a></li>
@@ -31,7 +51,8 @@
             </div>
             <div class="search-box">
                 <input class="box" type="text" value placeholder="Tìm kiếm">
-                <button class="button" type="submit" value=""><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                <button class="button" type="submit" value=""><i class="fa-solid fa-magnifying-glass"
+                        style="color: #ffffff;"></i></button>
             </div>
             <div class="hotline">
                 <p>HOTLINE: <span>0981.402.765</span></p>
@@ -43,39 +64,43 @@
                     <span>Giỏ hàng</span>
                 </a>
             </div>
-
-            
-
-            <!-- <div class="menu-mobile">
-                <i class="fa-sharp fa-solid fa-bars" style="color: black;"></i>
-            </div> -->
-            <!-- demo -->
         </div>
-        <div class="menu" >
-            <ul>
-                <li>
-                        <i class="fa-sharp fa-solid fa-bars" style="color: #f2f4f8;"></i> DANH MỤC SẢN PHẨM
-                    <ul>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Kem dưỡng ẩm</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Sữa rửa mặt</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Serum Caryophy</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Toner</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Kem chống nắng</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Tẩy trang</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Tẩy da chết</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Mặt nạ</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Dưỡng trắng body</a></li>
-                        <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Xịt mụn lưng</a></li>
-                    </ul>                        
-                </li>
-                <li><a href="HomePage.html">Trang chủ</a></li>
-                <li><a href="Introduce.html">Giới thiệu</a></li>
-                <li><a href="Product.html">Sản phẩm</a></li>
-                <li><a href="">Hệ thống cửa hàng</a></li>
-                <li><a href="News.html">Tin tức</a></li>
-                <li><a href="Contact.html">Liên hệ</a></li>
-            </ul>
-        </div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <i class="fa-sharp fa-solid fa-bars" style="color: #f2f4f8;"></i> DANH MỤC SẢN PHẨM
+                <ul>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Kem dưỡng
+                            ẩm</a></li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Sữa rửa
+                            mặt</a></li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Serum
+                            Caryophy</a></li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Toner</a>
+                    </li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Kem chống
+                            nắng</a></li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Tẩy trang</a>
+                    </li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Tẩy da
+                            chết</a></li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Mặt nạ</a>
+                    </li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Dưỡng trắng
+                            body</a></li>
+                    <li><a href=""><i class="fa-sharp fa-solid fa-angle-right" style="color: #07724C;"></i>Xịt mụn
+                            lưng</a></li>
+                </ul>
+            </li>
+            <li><a href="HomePage.html">Trang chủ</a></li>
+            <li><a href="Introduce.html">Giới thiệu</a></li>
+            <li><a href="Product.html">Sản phẩm</a></li>
+            <li><a href="">Hệ thống cửa hàng</a></li>
+            <li><a href="News.html">Tin tức</a></li>
+            <li><a href="Contact.html">Liên hệ</a></li>
+        </ul>
+    </div>
     </div>
     <div class="body">
         <div class="list-product">
@@ -84,16 +109,24 @@
             </div>
             <div class="list-product-main">
                 <ul>
-                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i></i>Kem dưỡng ẩm</a></li>
-                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Sữa rửa mặt</a></li>
-                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Serum Caryophy</a></li>
+                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i></i>Kem dưỡng
+                            ẩm</a></li>
+                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Sữa rửa mặt</a>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Serum
+                            Caryophy</a></li>
                     <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Toner</a></li>
-                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Kem chống nắng</a></li>
-                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Tẩy trang</a></li>
-                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Tẩy da chết</a></li>
+                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Kem chống
+                            nắng</a></li>
+                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Tẩy trang</a>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Tẩy da chết</a>
+                    </li>
                     <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Mặt nạ</a></li>
-                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Dưỡng trắng body</a></li>
-                    <li class="li-end"><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Xịt mụn lưng</a></li>
+                    <li><a href=""><i class="fa-solid fa-angles-right fa-xs" style="color: #146119;"></i>Dưỡng trắng
+                            body</a></li>
+                    <li class="li-end"><a href=""><i class="fa-solid fa-angles-right fa-xs"
+                                style="color: #146119;"></i>Xịt mụn lưng</a></li>
                 </ul>
             </div>
             <div class="advise">
@@ -104,7 +137,7 @@
                     <form action="">
                         <input class="input-text" type="text" placeholder="Họ và tên" required>
                         <input class="input-text" type="text" placeholder="Email (số điện thoại)" required>
-                        <textarea name="" class="text-area" placeholder = "Nội dung..." required></textarea> <br>
+                        <textarea name="" class="text-area" placeholder="Nội dung..." required></textarea> <br>
                         <input class="sbm" type="submit" value="Đặt lịch">
                     </form>
                 </div>
@@ -116,13 +149,13 @@
                 <div class="buy-product-main-left">
                     <img class="main-img" src="../img/Serum1.png" alt="">
                     <div class="orther-img">
-                            <img src="../img/Serum1.png" alt="">
-                            <img src="../img/Serum2.png" alt="">
-                            <img src="../img/Serum3.png" alt="">
-                            <img src="../img/Serum4.png" alt="">
+                        <img src="../img/Serum1.png" alt="">
+                        <img src="../img/Serum2.png" alt="">
+                        <img src="../img/Serum3.png" alt="">
+                        <img src="../img/Serum4.png" alt="">
                     </div>
                 </div>
-                
+
                 <div class="buy-product-main-right">
                     <div class="buy-product-main-right-title">
                         <div class="buy-product-main-right-title-main">
@@ -132,25 +165,33 @@
                         </div>
                         <div class="buy-product-main-right-title-info">
                             <span>Serum Caryophy Portulaca Ampoule là sản phẩm gì?</span>
-                            <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><span>Serum Caryophy Portulca Ampoule</span> là Serum trị mụn thâm Hàn Quốc với dung tích 10ml có khả năng trị mụn, trị thâm, dưỡng ẩm, kháng khuẩn kháng viêm, phục hồi da và chống lão hóa toàn diện.</p>
+                            <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><span>Serum Caryophy
+                                    Portulca Ampoule</span> là Serum trị mụn thâm Hàn Quốc với dung tích 10ml có khả
+                                năng trị mụn, trị thâm, dưỡng ẩm, kháng khuẩn kháng viêm, phục hồi da và chống lão
+                                hóa toàn diện.</p>
                             <span>Serum Caryophy Portulaca Ampoule dành cho da nào phù hợp?</span>
-                            <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><span>Serum Caryophy Portulaca Ampoule</span> trị mụn trị thâm với các thành phần lành tính 100% từ thiên nhiên an toàn phù hợp với mọi loại da: Da thường, Da dầu, Da hỗn hợp, Da khô, Da nhạy cảm, Da mụn.</p>
+                            <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><span>Serum Caryophy
+                                    Portulaca Ampoule</span> trị mụn trị thâm với các thành phần lành tính 100% từ thiên
+                                nhiên an toàn phù hợp với mọi loại da: Da thường, Da dầu, Da hỗn hợp, Da khô, Da
+                                nhạy cảm, Da mụn.</p>
                         </div>
                     </div>
                     <div class="box-price">
-                        <p><i class="fa-solid fa-hand-point-right fa-2xs" style="color: #165615;"></i>Giá gốc: 650.000 VNĐ</p>
+                        <p><i class="fa-solid fa-hand-point-right fa-2xs" style="color: #165615;"></i>Giá gốc: 650.000
+                            VNĐ</p>
                         <p><i class="fa-solid fa-hand-point-right fa-2xs" style="color: #165615;"></i>Giảm giá: 25%</p>
                         <p class="box-text">Giá bán:<span> 490.000 VNĐ</span></p>
-                    </div>  
+                    </div>
                     <div class="information">
-                        <p>Tất cả sản phẩm đều có hóa đơn bán hàng đi kèm. Quý khách nào không nhận được hóa đơn vui lòng<a href=""> Liên hệ 098.1402.765</a></p>
-                    </div> 
+                        <p>Tất cả sản phẩm đều có hóa đơn bán hàng đi kèm. Quý khách nào không nhận được hóa đơn vui
+                            lòng<a href=""> Liên hệ 098.1402.765</a></p>
+                    </div>
                     <div class="cartt">
                         <button class="decrease" onclick="decreaseQuantity()">-</button>
                         <input class="quantity" type="number" value="1" min="1">
                         <button class="increase" onclick="increaseQuantity()">+</button>
                         <button class="add-to-cart" onclick="addToCart()">Thêm vào giỏ hàng</button>
-                      </div>             
+                    </div>
                     <div class="social">
                         <a href="#">Facebook</a>
                         <a href="#">Twitter</a>
@@ -165,9 +206,15 @@
             </div>
             <div class="tab-panels">
                 <h2>Serum Caryophy Portulaca Ampoule là sản phẩm gì?</h2>
-                <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><strong>Serum Caryophy Portulaca Ampoule</strong> là Serum Hàn Quốc 3 trong 1 gồm trị mụn, trị thâm, dưỡng ẩm, phục hồi da và chống lão hóa toàn diện.</p>
-                <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><strong>Serum Caryophy</strong> thiết kế nhỏ gọn trong lọ thuỷ tinh với dung tích 10ml kèm hộp giấy đi kèm giúp bảo quản tốt hơn, tránh bị oxy hoá khi không dùng hết và tiện lợi mang theo bên mình mọi lúc mọi nơi.</p>
-                <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><strong>Serum trị mụn Caryophy</strong> với các thành phần 100% thiên nhiên, an toàn và phù hợp với mọi loại da: Da thường, Da dầu, Da hỗn hợp, Da khô, Da nhạy cảm, Da mụn.</p>
+                <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><strong>Serum Caryophy Portulaca
+                        Ampoule</strong> là Serum Hàn Quốc 3 trong 1 gồm trị mụn, trị thâm, dưỡng ẩm, phục hồi da và
+                    chống lão hóa toàn diện.</p>
+                <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><strong>Serum Caryophy</strong> thiết
+                    kế nhỏ gọn trong lọ thuỷ tinh với dung tích 10ml kèm hộp giấy đi kèm giúp bảo quản tốt hơn, tránh bị
+                    oxy hoá khi không dùng hết và tiện lợi mang theo bên mình mọi lúc mọi nơi.</p>
+                <p><i class="fa-solid fa-check fa-xl" style="color: #15602f;"></i><strong>Serum trị mụn
+                        Caryophy</strong> với các thành phần 100% thiên nhiên, an toàn và phù hợp với mọi loại da: Da
+                    thường, Da dầu, Da hỗn hợp, Da khô, Da nhạy cảm, Da mụn.</p>
                 <div class="img">
                     <img width="400px" height="400px" src="../img/adve-1.jpg" alt="">
                 </div>
@@ -218,12 +265,12 @@
                     </div>
                     <p>Ngoài ra, <strong>Serum Caryophy</strong> trị mụn, trị thâm còn có các thành phần khác như: Glycerin, Caprylyl Glycol, Butylene Glycol, Citric Acid, Sodium Citrate, Madecassoside, chiết xuất sả (Lemon Grass Extract), chiết xuất hoa Cúc La Mã (Chamomile Flower Extract)… đều là những thành phần rất tốt với vai trò giữ ẩm, kháng viêm và làm dịu da mụn tổn thương.</p>
                 </div> -->
-                
+
                 <div class="hienthi">
                     <button onclick="toggleContent()" id="toggleButton">
                         Hiển thị thêm ...
                     </button>
-                </div> 
+                </div>
                 <section class="slider-product-one">
                     <div class="container">
                         <div class="slider-product-one-content">
@@ -238,7 +285,9 @@
                                                 <div class="top-img">
                                                     <a href="#"><img src="../img/lq1.png" alt=""></a>
                                                     <span class="discount-circle">-25%</span>
-                                                    <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                    <span class="add-product"><i
+                                                            class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                            style="color: #094410;"></i></span>
                                                 </div>
                                                 <div class="top-box-text">
                                                     <a href="#">
@@ -251,15 +300,18 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
-                            
+
                                         <div class="slider-product-one-content-item">
                                             <div class="top-img">
-                                                <a href="#"><img src="../img/lq2.png" alt=""></a>                                                <span class="discount-circle">-37%</span>
-                                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                <a href="#"><img src="../img/lq2.png" alt=""></a> <span
+                                                    class="discount-circle">-37%</span>
+                                                <span class="add-product"><i
+                                                        class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                        style="color: #094410;"></i></span>
                                             </div>
-                                            
+
                                             <div class="top-box-text">
                                                 <a href="#">
                                                     <p>Xịt trị mụn toàn thân Body Mist 150ml</p>
@@ -270,17 +322,21 @@
                                                     <a href="#" class="chitiet">Mua hàng</a>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                         <div class="slider-product-one-content-item">
                                             <div class="top-img">
-                                                <a href="#"><img src="../img/lq3.png" alt=""></a>                                                <span class="discount-circle">-23%</span>
-                                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                <a href="#"><img src="../img/lq3.png" alt=""></a> <span
+                                                    class="discount-circle">-23%</span>
+                                                <span class="add-product"><i
+                                                        class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                        style="color: #094410;"></i></span>
                                             </div>
-                                            
+
                                             <div class="top-box-text">
                                                 <a href="#">
-                                                    <p>Kem chống nắng thông minh Caryophy Smart Sunscreen Tone Up 50ml</p>
+                                                    <p>Kem chống nắng thông minh Caryophy Smart Sunscreen Tone Up 50ml
+                                                    </p>
                                                 </a>
                                                 <ins> <span>279.000đ </span></ins>
                                                 <del> <span>360.000đ</span></del> <br>
@@ -288,13 +344,16 @@
                                                     <a href="#" class="chitiet">Mua hàng</a>
                                                 </div>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                     <div class="slider-product-one-content-items">
                                         <div class="slider-product-one-content-item">
                                             <div class="top-img">
-                                                <a href="#"><img src="../img/lq4.jpg" alt=""></a>                                                <span class="discount-circle">-25%</span>
-                                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                <a href="#"><img src="../img/lq4.jpg" alt=""></a> <span
+                                                    class="discount-circle">-25%</span>
+                                                <span class="add-product"><i
+                                                        class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                        style="color: #094410;"></i></span>
                                             </div>
                                             <div class="top-box-text">
                                                 <a href="#">
@@ -307,13 +366,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                            
+
                                         <div class="slider-product-one-content-item">
                                             <div class="top-img">
-                                                <a href="#"><img src="../img/lq5.jpg" alt=""></a>                                                <span class="discount-circle">-37%</span>
-                                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                <a href="#"><img src="../img/lq5.jpg" alt=""></a> <span
+                                                    class="discount-circle">-37%</span>
+                                                <span class="add-product"><i
+                                                        class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                        style="color: #094410;"></i></span>
                                             </div>
-                                            
+
                                             <div class="top-box-text">
                                                 <a href="#">
                                                     <p>Xịt trị mụn toàn thân Body Mist 150ml</p>
@@ -324,14 +386,17 @@
                                                     <a href="#" class="chitiet">Mua hàng</a>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                         <div class="slider-product-one-content-item">
                                             <div class="top-img">
-                                                <a href="#"><img src="../img/lq6.png" alt=""></a>                                                <span class="discount-circle">-23%</span>
-                                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                <a href="#"><img src="../img/lq6.png" alt=""></a> <span
+                                                    class="discount-circle">-23%</span>
+                                                <span class="add-product"><i
+                                                        class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                        style="color: #094410;"></i></span>
                                             </div>
-                                            
+
                                             <div class="top-box-text">
                                                 <a href="#">
                                                     <p>Kem chống nắng thông minh Sunscreen Tone Up 50ml</p>
@@ -342,14 +407,17 @@
                                                     <a href="#" class="chitiet">Mua hàng</a>
                                                 </div>
                                             </div>
-                                        </div>  
-                                    
+                                        </div>
+
                                     </div>
                                     <div class="slider-product-one-content-items">
                                         <div class="slider-product-one-content-item">
                                             <div class="top-img">
-                                                <a href="#"><img src="../img/lq7.png" alt=""></a>                                                <span class="discount-circle">-25%</span>
-                                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                <a href="#"><img src="../img/lq7.png" alt=""></a> <span
+                                                    class="discount-circle">-25%</span>
+                                                <span class="add-product"><i
+                                                        class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                        style="color: #094410;"></i></span>
                                             </div>
                                             <div class="top-box-text">
                                                 <a href="#">
@@ -362,13 +430,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                            
+
                                         <div class="slider-product-one-content-item">
                                             <div class="top-img">
-                                                <a href="#"><img src="../img/lq8.png" alt=""></a>                                                <span class="discount-circle">-37%</span>
-                                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                <a href="#"><img src="../img/lq8.png" alt=""></a> <span
+                                                    class="discount-circle">-37%</span>
+                                                <span class="add-product"><i
+                                                        class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                        style="color: #094410;"></i></span>
                                             </div>
-                                            
+
                                             <div class="top-box-text">
                                                 <a href="#">
                                                     <p>Caryophy Portulaca 300ml</p>
@@ -379,14 +450,17 @@
                                                     <a href="#" class="chitiet">Mua hàng</a>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                         <div class="slider-product-one-content-item">
                                             <div class="top-img">
-                                                <a href="#"><img src="../img/lq9.png" alt=""></a>                                                <span class="discount-circle">-23%</span>
-                                                <span class="add-product"><i class="fa-solid fa-cart-plus fa-beat-fade fa-xl" style="color: #094410;"></i></span>
+                                                <a href="#"><img src="../img/lq9.png" alt=""></a> <span
+                                                    class="discount-circle">-23%</span>
+                                                <span class="add-product"><i
+                                                        class="fa-solid fa-cart-plus fa-beat-fade fa-xl"
+                                                        style="color: #094410;"></i></span>
                                             </div>
-                                            
+
                                             <div class="top-box-text">
                                                 <a href="#">
                                                     <p>Mặt nạ Caryophy Portulaca Mask Sheet</p>
@@ -397,27 +471,23 @@
                                                     <a href="#" class="chitiet">Mua hàng</a>
                                                 </div>
                                             </div>
-                                        </div>  
-                                    
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="slider-product-one-content-btn">
                                     <i class="fas fa-chevron-left fa-chevron-left-two"></i>
                                     <i class="fas fa-chevron-right fa-chevron-right-two"></i>
-                                 </div>
+                                </div>
                             </div>
-                            
                         </div>
                     </div>
                 </section>
             </div>
         </div>
     </div>
-
-   
-        
-        <div id="footer"></div>
-        <button id="goToTopBtn"><i class="fa-solid fa-chevron-up fa-bounce fa-xs" style="color: black;"></i></button>
     </div>
+    <button id="goToTopBtn"><i class="fa-solid fa-chevron-up fa-bounce fa-xs" style="color: black;"></i></button>
 </body>
+
 </html>

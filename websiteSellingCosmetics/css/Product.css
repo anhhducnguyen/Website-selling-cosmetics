@@ -312,7 +312,7 @@ a{
 .top-product {
     display: flex;
     flex-wrap: wrap; /* Cho phép các sản phẩm xuống dòng */
-    justify-content: space-between; /* Căn đều */
+    justify-content: left; /* Căn đều */
     gap: 16px; /* Khoảng cách giữa các sản phẩm */
     width: 100%; /* Đảm bảo chiều rộng đầy đủ */
     box-sizing: border-box; /* Bao gồm padding, border */
@@ -321,6 +321,8 @@ a{
 
 .top-product > div {
     flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px); 
+    box-sizing: border-box;
     margin-bottom: 40px;
 }
 
@@ -378,7 +380,7 @@ a{
     background-color: white;
     border: 1px solid white;
     border-radius: 10px;
-} */
+}  */
 
 
 
@@ -768,31 +770,24 @@ footer{
         width: 100%;
     }
 
-    /* .top-left, .top-center, .top-right{
-        width: 145px;
-        height: 430px;
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 10px;
-    } */
-
-    /* .top-left, .top-center, .top-right{
-        width: 30%;
-    } */
+    
 
     .top-product {
-        /* width: 75%; */
-        /* width: 60%; */
         flex-wrap: wrap; 
     
     }
 
     .top-product > div {
-        /* flex: 1 1 100%;  */
         flex: 1 1 calc(50% - 20px);
-        /* margin-left: 60px; */
+        max-width: calc(50% - 20px); 
+        box-sizing: border-box;
     }
 
+    .top-product > div:only-child {
+        flex: 1 1 100px; /* Khi chỉ có 1 div, nó chiếm chiều rộng tối đa là 300px */
+        max-width: 100px; /* Đảm bảo không lớn hơn 300px */
+        justify-self: center; /* Căn giữa nếu nó đứng một mình */
+    }
     /* .main-header {
         display: none;
     } */
@@ -800,17 +795,17 @@ footer{
     .top ins {
         float: left; 
         padding-left: 15px;
-        font-size: 11px;
+        font-size: 12px;
     }
     
     .top del {
         float: right; 
         padding-right: 15px;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .top p{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .top-product {
